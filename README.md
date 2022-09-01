@@ -1,4 +1,4 @@
-# Spend Control App
+# CRM Control App - WIP
 
 This project is a simple CRM for **anyone** where the user (administrator) can administrate his clients
 
