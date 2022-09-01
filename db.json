@@ -1,0 +1,20 @@
+{
+  "clientes": [
+    {
+      "nombre": "Karim",
+      "empresa": "Karim Codes",
+      "email": "karim.gonzalez.ait@gmail.com",
+      "telefono": "123123123",
+      "notas": "Nada",
+      "id": 1
+    },
+    {
+      "nombre": "Comida",
+      "empresa": "Comida :D",
+      "email": "comida@comida.com",
+      "telefono": "334343",
+      "notas": "UHm",
+      "id": 2
+    }
+  ]
+}
