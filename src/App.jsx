@@ -17,7 +17,7 @@ function App() {
   return (
     <BrowserRouter>
         <Routes>
-
+        <Route path="/" element={<Layout />} />
           {/* Grupo de rutas */}
             <Route path="/clientes" element={<Layout />}>
               {/* Ruta singular */}
