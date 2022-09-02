@@ -1,3 +1,28 @@
 {
-  "clientes": []
+  "clientes": [
+    {
+      "nombre": "Pepe",
+      "empresa": "PEPE SL",
+      "email": "pepe@pepe.com",
+      "telefono": "123123123",
+      "notas": "Pepe de siempre",
+      "id": 1
+    },
+    {
+      "nombre": "Monica",
+      "empresa": "Monica SL",
+      "email": "monica@monica.com",
+      "telefono": "123123333",
+      "notas": "Monica",
+      "id": 2
+    },
+    {
+      "nombre": "Alberto",
+      "empresa": "Telefonos Alberto ",
+      "email": "telefonosAlberto@ta.com",
+      "telefono": "323232",
+      "notas": "El del telefono",
+      "id": 3
+    }
+  ]
 }

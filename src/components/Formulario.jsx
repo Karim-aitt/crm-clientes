@@ -31,7 +31,7 @@ const Formulario = ({ cliente, cargando }) => {
 
 			if(cliente.id){
                 // Editando un registro
-                const url = `http://localhost:4000/clientes/${cliente.id}`; //Clientes se genera automaticamente en base a lo que haya en db.json
+                const url = `${import.meta.env.VITE_API_URL}/${cliente.id}`; //Clientes se genera automaticamente en base a lo que haya en db.json
                 respuesta = await fetch(url, {
                     method: "PUT",
                     body: JSON.stringify(valores),
@@ -42,7 +42,7 @@ const Formulario = ({ cliente, cargando }) => {
 
             } else {
                 // Nuevo registro
-                const url = "http://localhost:4000/clientes"; //Clientes se genera automaticamente en base a lo que haya en db.json
+                const url = import.meta.env.VITE_API_URL; //Clientes se genera automaticamente en base a lo que haya en db.json
                 respuesta = await fetch(url, {
                     method: "POST",
                     body: JSON.stringify(valores),
